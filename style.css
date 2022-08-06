@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+:root{
+  --white: #ffffff;
+  --orangered: #fd7c6e;
+  --blue: #2f62a2;
+  --blueberry: #6b7a8f;
+  --orange: #f7882f;
+  --yellow: #f7c331;
+  --liteyellow: #dcc7aa;
+  --font1: 'Fauna One', serif;
+  --font2: 'Playfair Display', serif;
+  --font3: 'Raleway', sans-serif;
+  --font4: 'Roboto', sans-serif;
+}
+/* Navbar Section */
+.navbar-section {
+  background-color: var(--white);
+}
+.navbar-brand img {
+  height: 40px;
+}
+.nav-link {
+  font-weight: 600;
+  font-size: 15px;
+  font-family: var(--font4);
+  text-transform: uppercase;
+  letter-spacing: 0.1px;
+  margin: 0px 3px;
+  color: var(--orange) !important;
+}
+.nav-link:hover {
+  color: var(--yellow) !important;
+}
+.navbar-toggler{
+  outline: none !important;
+  border: none !important;
+}
+.fa-bars {
+  color: red;
+}
