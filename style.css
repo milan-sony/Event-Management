@@ -19,10 +19,11 @@
   --font4: 'Roboto', sans-serif;
 }
 /* Navbar Section */
-.navbar-section {
+.navbar{
   background-color: var(--white);
 }
 .navbar-brand img {
+  margin: 0;
   height: 40px;
 }
 .nav-link {
@@ -31,7 +32,7 @@
   font-family: var(--font4);
   text-transform: uppercase;
   letter-spacing: 0.1px;
-  margin: 0px 3px;
+  margin: 0px 5px;
   color: var(--orange) !important;
 }
 .nav-link:hover {
@@ -45,6 +46,96 @@
   color: red;
 }
 /* Home Section */
-.home-section{
+.home-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/pexels-vishnu-r-nair-1105666.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.home-section {
+  display: flex;
+  justify-content: center;
+}
+.home-section .container-fluid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.home-section h1{
+  margin: 0;
+  font-size: 80px;
+  font-weight: 700;
+  font-family: var(--font2);
+  color: var(--white);
+  padding-bottom: 10px;
+}
+.home-section p{
+  margin: 0;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: var(--font1);
+  color: var(--white);
+  padding-bottom: 15px;
+}
+.home-section p span{
+  color: var(--liteyellow);
+}
+.home-section .btn1{
+  padding: 5px 2opx;
+  background-color: var(--orange);
+  color: var(--white);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  outline: none;
+  border-radius: 12px;
+  transition-duration: 0.4s ease;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.home-section .btn1:hover{
+  background:none;
+  border: 1px solid var(--yellow);
+}
+.home-section .btn2{
+  padding: 5px 20px;
+  outline: none;
+  border: 1px solid var(--orange);
+  border-radius: 12px;
+  color: var(--white);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  transition-duration: 0.4s ease;
+  cursor: pointer;
+}
+.home-section .btn2:hover{
+  border: none;
+  background-color: var(--yellow);
 }
 
+
+
+/* Custom Media Query */
+@media (max-width: 320px) {
+  .home-section h1 {
+    padding-top: 15px;
+  }
+}
+@media (max-width: 320px) {
+  .home-section .btn1 {
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 320px) {
+  .home-section .btn2 {
+    margin-left: 12px;
+    margin-top: 15px;
+  }
+}
