@@ -17,4 +17,3 @@ function readMore(){
     readMoreBtn.innerHTML="Read More";
   }
 }
-``
