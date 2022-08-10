@@ -1,273 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Unica Events</title>
-  <!-- Bootstrap CSS CDN -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fauna+One&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-  <!-- Font Awesome CDN -->
-  <script src="https://kit.fontawesome.com/259d0ad731.js" crossorigin="anonymous"></script>
-  <!-- Custom CSS Style -->
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <!-- Navbar Section -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unica Events</title>
+    <!-- Bootstrap CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fauna+One&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/259d0ad731.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom CSS Style -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="preloader"></div>
+    <!-- Navbar Section -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container">
-      <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt="logo"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa-solid fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Testimonials</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Book Now</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+        <a class="navbar-brand" href="#"
+          ><img src="./assets/logo.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Book Now</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
     </nav>
-  <!-- Home Section -->
-  <section class="home-section">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-12">
-          <h1>Unica Events</h1>
-          <p> <span> We Create,</span> You Celebrate</p>
-          <button class="btn btn1">Book Online</button>
-          <button class="btn btn2">Contact Us</button>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- About Section -->
-  <section class="about-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h3 class="about-title">About Us</h3>
-          <p class="about-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, voluptatem? At nesciunt natus est numquam nostrum? Eveniet ratione obcaecati incidunt nulla odit molestiae qui quam quasi recusandae necessitatibus, molestias ipsum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea debitis obcaecati nemo vero, consequuntur error doloribus quae corporis fugiat consectetur facilis porro officiis, in, ducimus magni ullam ratione nesciunt temporibus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil possimus consectetur rerum distinctio perferendis. Accusamus rem delectus magni quidem asperiores nobis atque, aut dolores ipsum aperiam magnam dolor iure recusandae.<span id="dots">...</span> <span id="more-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima vero voluptate quia nemo voluptatem aperiam molestias voluptatum doloribus maiores, repudiandae voluptas commodi, architecto tenetur. Maxime impedit repellat sequi autem pariatur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur dolor excepturi dignissimos dolore quae ullam nisi molestiae. Eligendi nihil expedita ratione, odio architecto tempora accusamus in excepturi, optio est quisquam.</span> <span id="read-more-btn" onclick="readMore()">Read More</span></p>
-        </div>
-        <div class="col-lg-12">
-          <h3 class="about-sub1">We Create <br><span class="span1">Memorable Events...</span></h3>
-          <p class="about-sub2">It's simple, You have an event to plan and <br>
-          We have the <span class="span2">Solution.</span></p>
-        </div>
-      </div>
-      <!-- Features Icons -->
-      <div class="row">
-        <div class="col-lg-12">
-          <h3 class="features-title">Our <span class="features-title-span">Features</span></h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-2 col-md-6">
-          <div class="feature-box">
-            <img src="./assets/icons/icon-handshake.png" alt="ShakeHand-icon"/>
-            <p>Friendly Team</p>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-6">
-          <div class="feature-box">
-            <img src="./assets/icons/icon-location.png" alt="location-icon"/>
-            <p>Perfect Venue</p>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-6">
-          <div class="feature-box">
-            <img src="./assets/icons/icon-party.png" alt="Scenario-icon"/>
-            <p>Unique Scenario</p>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-6">
-          <div class="feature-box">
-            <img src="./assets/icons/icon-frnds.png" alt="Friends-icon"/>
-            <p>Unforgettable Time</p>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-6">
-          <div class="feature-box">
-            <img src="./assets/icons/icon-timer.png" alt="Time-icon"/>
-            <p>24/7 Hours Support</p>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-6">
-          <div class="feature-box">
-            <img src="./assets/icons/icon-light.png" alt="light-icon"/>
-            <p>Brilliant Ideas</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Counter -->
-  <div class="container-fluid counter-section">
-    <div class="counter-box">
-      <div class="row">
-        <div class="col-lg-3 col-md-6">
-          <h3>550+</h3>
-          <p>Projects</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <h3>200+</h3>
-          <p>Tursted Clients</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <h3>180+</h3>
-          <p>Cup of Coffee</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <h3>250+</h3>
-          <p>Team Members</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Service Section -->
-  <section class="service-section" id="services">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h3 class="service-title">Our Services</h3>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="service-box">
-            <img src="./assets/images/wedserviceimg.jpg" class="img-fluid" alt="Wedding Event Image">
-            <p class="servicebox-title">Wedding Events</p>
-            <p class="servicebox-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <button class="btn servicebox-btn">Book Online</button>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="service-box">
-            <img src="./assets/images/bdayserviceimg.jpg" class="img-fluid" alt="Birthday party Image">
-            <p class="servicebox-title">Birthday party</p>
-            <p class="servicebox-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <button class="btn servicebox-btn">Book Online</button>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="service-box">
-            <img src="./assets/images/bpserviceimg.jpg" class="img-fluid" alt="Bachelore's party Image">
-            <p class="servicebox-title">Bachelor Party</p>
-            <p class="servicebox-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <button class="btn servicebox-btn">Book Online</button>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="service-box">
-            <img src="./assets/images/socialserviceimg.jpg" class="img-fluid" alt="Social Meeting Image">
-            <p class="servicebox-title">Social Meetings</p>
-            <p class="servicebox-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <button class="btn servicebox-btn">Book Online</button>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="service-box">
-            <img src="./assets/images/entertainserviceimg.jpg" class="img-fluid" alt="Entertainment Event Image">
-            <p class="servicebox-title">Entertainment Events</p>
-            <p class="servicebox-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <button class="btn servicebox-btn">Book Online</button>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="service-box">
-            <img src="./assets/images/coposerviceimg.jpg" class="img-fluid" alt="Corporate Events Image">
-            <p class="servicebox-title">Corporate Events</p>
-            <p class="servicebox-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <button class="btn servicebox-btn">Book Online</button>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="service-box">
-            <img src="./assets/images/familyserviceimg.jpg" class="img-fluid" alt="Family Events Image">
-            <p class="servicebox-title">Family Events</p>
-            <p class="servicebox-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <button class="btn servicebox-btn">Book Online</button>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="service-box">
-            <img src="./assets/images/d&dserviceimg.jpg" class="img-fluid" alt="Design & Decore Image">
-            <p class="servicebox-title">Design & Decor</p>
-            <p class="servicebox-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <button class="btn servicebox-btn">Book Online</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Testimonial Section -->
-  <section class="testimonial-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
+    <!-- Home Section -->
+    <section class="home-section">
+      <div class="container-fluid">
+        <div class="row">
           <div class="col-lg-12">
-            <h3 class="testimonial-title">Testimonials</h3>
+            <h1>Unica Events</h1>
+            <p><span> We Create,</span> You Celebrate</p>
+            <button class="btn btn1">Book Online</button>
+            <button class="btn btn2">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section class="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="about-title">About Us</h3>
+            <p class="about-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius,
+              voluptatem? At nesciunt natus est numquam nostrum? Eveniet ratione
+              obcaecati incidunt nulla odit molestiae qui quam quasi recusandae
+              necessitatibus, molestias ipsum? Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Ea debitis obcaecati nemo vero,
+              consequuntur error doloribus quae corporis fugiat consectetur
+              facilis porro officiis, in, ducimus magni ullam ratione nesciunt
+              temporibus! Lorem ipsum dolor sit, amet consectetur adipisicing
+              elit. Nihil possimus consectetur rerum distinctio perferendis.
+              Accusamus rem delectus magni quidem asperiores nobis atque, aut
+              dolores ipsum aperiam magnam dolor iure recusandae.<span id="dots"
+                >...</span
+              >
+              <span id="more-text"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                vero voluptate quia nemo voluptatem aperiam molestias voluptatum
+                doloribus maiores, repudiandae voluptas commodi, architecto
+                tenetur. Maxime impedit repellat sequi autem pariatur! Lorem
+                ipsum dolor, sit amet consectetur adipisicing elit. Consectetur
+                dolor excepturi dignissimos dolore quae ullam nisi molestiae.
+                Eligendi nihil expedita ratione, odio architecto tempora
+                accusamus in excepturi, optio est quisquam.</span
+              >
+              <span id="read-more-btn" onclick="readMore()">Read More</span>
+            </p>
+          </div>
+          <div class="col-lg-12">
+            <h3 class="about-sub1">
+              We Create <br /><span class="span1">Memorable Events...</span>
+            </h3>
+            <p class="about-sub2">
+              It's simple, You have an event to plan and <br />
+              We have the <span class="span2">Solution.</span>
+            </p>
+          </div>
+        </div>
+        <!-- Features Icons -->
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="features-title">
+              Our <span class="features-title-span">Features</span>
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-6">
+            <div class="feature-box">
+              <img
+                src="./assets/icons/icon-handshake.png"
+                alt="ShakeHand-icon"
+              />
+              <p>Friendly Team</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="feature-box">
+              <img src="./assets/icons/icon-location.png" alt="location-icon" />
+              <p>Perfect Venue</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="feature-box">
+              <img src="./assets/icons/icon-party.png" alt="Scenario-icon" />
+              <p>Unique Scenario</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="feature-box">
+              <img src="./assets/icons/icon-frnds.png" alt="Friends-icon" />
+              <p>Unforgettable Time</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="feature-box">
+              <img src="./assets/icons/icon-timer.png" alt="Time-icon" />
+              <p>24/7 Hours Support</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="feature-box">
+              <img src="./assets/icons/icon-light.png" alt="light-icon" />
+              <p>Brilliant Ideas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Counter -->
+    <div class="container-fluid counter-section">
+      <div class="counter-box">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <h3>550+</h3>
+            <p>Projects</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3>200+</h3>
+            <p>Tursted Clients</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3>180+</h3>
+            <p>Cup of Coffee</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3>250+</h3>
+            <p>Team Members</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <!-- Service Section -->
+    <section class="service-section" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="service-title">Our Services</h3>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="service-box">
+              <img
+                src="./assets/images/wedserviceimg.jpg"
+                class="img-fluid"
+                alt="Wedding Event Image"
+              />
+              <p class="servicebox-title">Wedding Events</p>
+              <p class="servicebox-desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <button class="btn servicebox-btn">Book Online</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="service-box">
+              <img
+                src="./assets/images/bdayserviceimg.jpg"
+                class="img-fluid"
+                alt="Birthday party Image"
+              />
+              <p class="servicebox-title">Birthday party</p>
+              <p class="servicebox-desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <button class="btn servicebox-btn">Book Online</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="service-box">
+              <img
+                src="./assets/images/bpserviceimg.jpg"
+                class="img-fluid"
+                alt="Bachelore's party Image"
+              />
+              <p class="servicebox-title">Bachelor Party</p>
+              <p class="servicebox-desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <button class="btn servicebox-btn">Book Online</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="service-box">
+              <img
+                src="./assets/images/socialserviceimg.jpg"
+                class="img-fluid"
+                alt="Social Meeting Image"
+              />
+              <p class="servicebox-title">Social Meetings</p>
+              <p class="servicebox-desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <button class="btn servicebox-btn">Book Online</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="service-box">
+              <img
+                src="./assets/images/entertainserviceimg.jpg"
+                class="img-fluid"
+                alt="Entertainment Event Image"
+              />
+              <p class="servicebox-title">Entertainment Events</p>
+              <p class="servicebox-desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <button class="btn servicebox-btn">Book Online</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="service-box">
+              <img
+                src="./assets/images/coposerviceimg.jpg"
+                class="img-fluid"
+                alt="Corporate Events Image"
+              />
+              <p class="servicebox-title">Corporate Events</p>
+              <p class="servicebox-desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <button class="btn servicebox-btn">Book Online</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="service-box">
+              <img
+                src="./assets/images/familyserviceimg.jpg"
+                class="img-fluid"
+                alt="Family Events Image"
+              />
+              <p class="servicebox-title">Family Events</p>
+              <p class="servicebox-desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <button class="btn servicebox-btn">Book Online</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="service-box">
+              <img
+                src="./assets/images/d&dserviceimg.jpg"
+                class="img-fluid"
+                alt="Design & Decore Image"
+              />
+              <p class="servicebox-title">Design & Decor</p>
+              <p class="servicebox-desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <button class="btn servicebox-btn">Book Online</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial Section -->
+    <section class="testimonial-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="col-lg-12">
+              <h3 class="testimonial-title">Testimonials</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+            >
               <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="2"
+                ></li>
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active carousel-container">
                   <div class="client-image">
-                    <img src="./assets/ClientImages/client1.jpg" alt="">
+                    <img src="./assets/ClientImages/client1.jpg" alt="" />
                   </div>
-                    <p class="client-name"><b>Milan Sony</b></p>
-                    <p class="client-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                  <p class="client-name"><b>Milan Sony</b></p>
+                  <p class="client-desc">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. <br />
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s.
+                  </p>
                 </div>
                 <div class="carousel-item carousel-container">
                   <div class="client-image">
-                    <img src="./assets/ClientImages/client2.jpg" alt="">
+                    <img src="./assets/ClientImages/client2.jpg" alt="" />
                   </div>
-                    <p class="client-name"><b>Milosh Sony</b></p>
-                    <p class="client-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                  <p class="client-name"><b>Milosh Sony</b></p>
+                  <p class="client-desc">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    <br />
+                    At esse earum nulla, libero eligendi molestiae.
+                  </p>
                 </div>
                 <div class="carousel-item carousel-container">
                   <div class="client-image">
-                    <img src="./assets/ClientImages/client3.jpg" alt="">
+                    <img src="./assets/ClientImages/client3.jpg" alt="" />
                   </div>
-                    <p class="client-name"><b>Binu Sony</b></p>
-                    <p class="client-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                  <p class="client-name"><b>Binu Sony</b></p>
+                  <p class="client-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />Illo
+                    architecto cupiditate adipisci at deserunt consectetur.
+                  </p>
                 </div>
               </div>
             </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- Gallery Section -->
     <section class="gallery-section">
       <div class="container">
@@ -277,93 +418,259 @@
           </div>
         </div>
         <div>
-          <button class="btn btn-default filter-button" data-filter="all" >All</button>
-          <button class="btn btn-default filter-button" data-filter="wedding">Wedding</button>
-          <button class="btn btn-default  filter-button" data-filter="birthday">Birthday</button>
-          <button class="btn btn-default filter-button" data-filter="bachelor">Bachelor</button>
-          <button class="btn btn-default filter-button" data-filter="social">Social</button>
-          <button class="btn btn-default filter-button" data-filter="entertainment">Entertainment</button>
-          <button class="btn btn-default filter-button" data-filter="corporate">Corporate</button>
-          <button class="btn btn-default filter-button" data-filter="family">Family</button>
-          <button class="btn btn-default filter-button" data-filter="design">Design & Decor</button>
+          <button class="btn btn-default filter-button" data-filter="all">
+            All
+          </button>
+          <button class="btn btn-default filter-button" data-filter="wedding">
+            Wedding
+          </button>
+          <button class="btn btn-default filter-button" data-filter="birthday">
+            Birthday
+          </button>
+          <button class="btn btn-default filter-button" data-filter="bachelor">
+            Bachelor
+          </button>
+          <button class="btn btn-default filter-button" data-filter="social">
+            Social
+          </button>
+          <button
+            class="btn btn-default filter-button"
+            data-filter="entertainment"
+          >
+            Entertainment
+          </button>
+          <button class="btn btn-default filter-button" data-filter="corporate">
+            Corporate
+          </button>
+          <button class="btn btn-default filter-button" data-filter="family">
+            Family
+          </button>
+          <button class="btn btn-default filter-button" data-filter="design">
+            Design & Decor
+          </button>
         </div>
         <div class="row">
           <div class="gallery-product col-md-4 filter wedding">
-            <img src="./assets/images/wedimg1.jpg" class="img-fluid" alt="WeddingEventimage">
+            <img
+              src="./assets/images/wedimg1.jpg"
+              class="img-fluid"
+              alt="WeddingEventimage"
+            />
           </div>
           <div class="gallery-product col-md-4 filter birthday">
-            <img src="./assets/images/bdayimg1.jpg" class="img-fluid" alt="BirthdayPartyImage">
+            <img
+              src="./assets/images/bdayimg1.jpg"
+              class="img-fluid"
+              alt="BirthdayPartyImage"
+            />
           </div>
           <div class="gallery-product col-md-4 filter bachelor">
-            <img src="./assets/images/bpimg1.jpg" class="img-fluid" alt="BachelorPartyimage">
+            <img
+              src="./assets/images/bpimg1.jpg"
+              class="img-fluid"
+              alt="BachelorPartyimage"
+            />
           </div>
           <div class="gallery-product col-md-4 filter social">
-            <img src="./assets/images/socialimg1.jpg" class="img-fluid" alt="SocialEventImage">
+            <img
+              src="./assets/images/socialimg1.jpg"
+              class="img-fluid"
+              alt="SocialEventImage"
+            />
           </div>
           <div class="gallery-product col-md-4 filter entertainment">
-            <img src="./assets/images/entertainimg1.jpg" class="img-fluid" alt="EntertainmentEventImage">
+            <img
+              src="./assets/images/entertainimg1.jpg"
+              class="img-fluid"
+              alt="EntertainmentEventImage"
+            />
           </div>
           <div class="gallery-product col-md-4 filter corporate">
-            <img src="./assets/images/copoimg1.jpg" class="img-fluid" alt="CorporateEventImage">
+            <img
+              src="./assets/images/copoimg1.jpg"
+              class="img-fluid"
+              alt="CorporateEventImage"
+            />
           </div>
           <div class="gallery-product col-md-4 filter family">
-            <img src="./assets/images/famimg1.jpg" class="img-fluid" alt="FamilyEventImage">
+            <img
+              src="./assets/images/famimg1.jpg"
+              class="img-fluid"
+              alt="FamilyEventImage"
+            />
           </div>
           <div class="gallery-product col-md-4 filter design">
-            <img src="./assets/images/d&dimg1.jpg" class="img-fluid" alt="Design & Decor">
+            <img
+              src="./assets/images/d&dimg1.jpg"
+              class="img-fluid"
+              alt="Design & Decor"
+            />
           </div>
           <div class="gallery-product col-md-4 filter wedding">
-            <img src="./assets/images/wedimg2.jpg" class="img-fluid" alt="WeddingEventimage">
+            <img
+              src="./assets/images/wedimg2.jpg"
+              class="img-fluid"
+              alt="WeddingEventimage"
+            />
           </div>
           <div class="gallery-product col-md-4 filter birthday">
-            <img src="./assets/images/bdayimg2.jpg" class="img-fluid" alt="BirthdayPartyImage">
+            <img
+              src="./assets/images/bdayimg2.jpg"
+              class="img-fluid"
+              alt="BirthdayPartyImage"
+            />
           </div>
           <div class="gallery-product col-md-4 filter bachelor">
-            <img src="./assets/images/bpimg2.jpg" class="img-fluid" alt="BachelorPartyimage">
+            <img
+              src="./assets/images/bpimg2.jpg"
+              class="img-fluid"
+              alt="BachelorPartyimage"
+            />
           </div>
-          <div class="gallery-product col-md-4 filter  social">
-            <img src="./assets/images/socialimg2.jpg" class="img-fluid" alt="SocialEventImage">
+          <div class="gallery-product col-md-4 filter social">
+            <img
+              src="./assets/images/socialimg2.jpg"
+              class="img-fluid"
+              alt="SocialEventImage"
+            />
           </div>
-          <div class="gallery-product col-md-4 filter  entertainment">
-            <img src="./assets/images/entertainimg2.jpg" class="img-fluid" alt="EntertainmentEventImage">
+          <div class="gallery-product col-md-4 filter entertainment">
+            <img
+              src="./assets/images/entertainimg2.jpg"
+              class="img-fluid"
+              alt="EntertainmentEventImage"
+            />
           </div>
-          <div class="gallery-product col-md-4 filter  corporate">
-            <img src="./assets/images/copoimg2.jpg" class="img-fluid" alt="CorporateEventImage">
+          <div class="gallery-product col-md-4 filter corporate">
+            <img
+              src="./assets/images/copoimg2.jpg"
+              class="img-fluid"
+              alt="CorporateEventImage"
+            />
           </div>
-          <div class="gallery-product col-md-4 filter  family">
-            <img src="./assets/images/famimg2.jpg" class="img-fluid" alt="FamilyEventImage">
+          <div class="gallery-product col-md-4 filter family">
+            <img
+              src="./assets/images/famimg2.jpg"
+              class="img-fluid"
+              alt="FamilyEventImage"
+            />
           </div>
-          <div class="gallery-product col-md-4 filter  design">
-            <img src="./assets/images/d&dimg2.jpg" class="img-fluid" alt="Design & Decor">
+          <div class="gallery-product col-md-4 filter design">
+            <img
+              src="./assets/images/d&dimg2.jpg"
+              class="img-fluid"
+              alt="Design & Decor"
+            />
           </div>
         </div>
-       </div>
+      </div>
     </section>
-  <!-- Custom JavaScript -->
-  <script src="./script.js"></script>
+    <!-- Book Online Section  -->
+    <section class="bookonline-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="bookonline-title">Book Online</h3>
+          </div>
+        </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4">
+          <div class="online-form">
+          <label for="name"><i class="fa-solid fa-user"></i>&nbsp Your Name</label>
+          <input type="text" class="form-control" placeholder="Name" autocomplete="off" required>
+        </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="online-form">
+          <label for="email"><i class="fa-solid fa-at"></i>&nbsp Your Email</label>
+          <input type="email" class="form-control" placeholder="Email" autocomplete="off" required>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="online-form">
+          <label for="phone"><i class="fa-solid fa-square-phone"></i>&nbsp Phone</label>
+          <input type="tel" class="form-control" name="phone" placeholder="Phone"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          required>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="online-form">
+          <label for="persons"><i class="fa-solid fa-users"></i>&nbsp Persons</label>
+          <input type="number" class="form-control" placeholder="Persons" autocomplete="off" required>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="online-form">
+          <label for="startdate"><i class="fa-solid fa-calendar-days"></i>&nbsp Start Date</label>
+          <input type="date" class="form-control" placeholder="Start Date" autocomplete="off" required>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="online-form">
+          <label for="enddate"><i class="fa-solid fa-calendar-days"></i>&nbsp End Date</label>
+          <input type="date" class="form-control" placeholder="End Date" autocomplete="off" required>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="online-form">
+          <label for="description"><i class="fa-solid fa-file-pen"></i>&nbsp Add Description</label>
+          <textarea class="form-control" cols="30" rows="5" placeholder="Add Description"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 bookonline-btn-container">
+        <button type="submit" class="btn bookonline-btn">Sumbit Now</button>
+      </div>
 
-  <!-- JQuery CDN -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </div>
+    </section>
 
-  <script>
-    $(document).ready(function(){
-      $(".filter-button").click(function(){
-        var value = $(this).attr("data-filter");
-        if (value == "all"){
-          $(".filter").show("3000");
-        }else{
-          $(".filter").not("."+value).hide("3000");
-          $(".filter").filter("."+value).show("3000");
-        }
-      })
-    })
-  </script>
+    <!-- Custom JavaScript -->
+    <script src="./script.js"></script>
 
-  <!-- Bootstrap JQuery CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <!-- Bootstrap Popper CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <!-- Bootstrap CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-</body>
+    <!-- JQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Image Gallery Jquery -->
+    <script>
+      $(document).ready(function () {
+        $(".filter-button").click(function () {
+          var value = $(this).attr("data-filter");
+          if (value == "all") {
+            $(".filter").show("3000");
+          } else {
+            $(".filter")
+              .not("." + value)
+              .hide("3000");
+            $(".filter")
+              .filter("." + value)
+              .show("3000");
+          }
+        });
+      });
+    </script>
+
+    <!-- Bootstrap JQuery CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap Popper CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
