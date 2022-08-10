@@ -212,7 +212,7 @@
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12">
           <div class="service-box">
-            <img src="./assets/images/d&dserviceimg.jpg" class="img-fluid" alt="Design & DecoreImage">
+            <img src="./assets/images/d&dserviceimg.jpg" class="img-fluid" alt="Design & Decore Image">
             <p class="servicebox-title">Design & Decor</p>
             <p class="servicebox-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             <button class="btn servicebox-btn">Book Online</button>
@@ -268,12 +268,97 @@
         </div>
       </div>
     </div>
-  </section>
-
-
-
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="gallery-title">Gallery</h3>
+          </div>
+        </div>
+        <div>
+          <button class="btn btn-default filter-button" data-filter="all" >All</button>
+          <button class="btn btn-default filter-button" data-filter="wedding">Wedding</button>
+          <button class="btn btn-default  filter-button" data-filter="birthday">Birthday</button>
+          <button class="btn btn-default filter-button" data-filter="bachelor">Bachelor</button>
+          <button class="btn btn-default filter-button" data-filter="social">Social</button>
+          <button class="btn btn-default filter-button" data-filter="entertainment">Entertainment</button>
+          <button class="btn btn-default filter-button" data-filter="corporate">Corporate</button>
+          <button class="btn btn-default filter-button" data-filter="family">Family</button>
+          <button class="btn btn-default filter-button" data-filter="design">Design & Decor</button>
+        </div>
+        <div class="row">
+          <div class="gallery-product col-md-4 filter wedding">
+            <img src="./assets/images/wedimg1.jpg" class="img-fluid" alt="WeddingEventimage">
+          </div>
+          <div class="gallery-product col-md-4 filter birthday">
+            <img src="./assets/images/bdayimg1.jpg" class="img-fluid" alt="BirthdayPartyImage">
+          </div>
+          <div class="gallery-product col-md-4 filter bachelor">
+            <img src="./assets/images/bpimg1.jpg" class="img-fluid" alt="BachelorPartyimage">
+          </div>
+          <div class="gallery-product col-md-4 filter social">
+            <img src="./assets/images/socialimg1.jpg" class="img-fluid" alt="SocialEventImage">
+          </div>
+          <div class="gallery-product col-md-4 filter entertainment">
+            <img src="./assets/images/entertainimg1.jpg" class="img-fluid" alt="EntertainmentEventImage">
+          </div>
+          <div class="gallery-product col-md-4 filter corporate">
+            <img src="./assets/images/copoimg1.jpg" class="img-fluid" alt="CorporateEventImage">
+          </div>
+          <div class="gallery-product col-md-4 filter family">
+            <img src="./assets/images/famimg1.jpg" class="img-fluid" alt="FamilyEventImage">
+          </div>
+          <div class="gallery-product col-md-4 filter design">
+            <img src="./assets/images/d&dimg1.jpg" class="img-fluid" alt="Design & Decor">
+          </div>
+          <div class="gallery-product col-md-4 filter wedding">
+            <img src="./assets/images/wedimg2.jpg" class="img-fluid" alt="WeddingEventimage">
+          </div>
+          <div class="gallery-product col-md-4 filter birthday">
+            <img src="./assets/images/bdayimg2.jpg" class="img-fluid" alt="BirthdayPartyImage">
+          </div>
+          <div class="gallery-product col-md-4 filter bachelor">
+            <img src="./assets/images/bpimg2.jpg" class="img-fluid" alt="BachelorPartyimage">
+          </div>
+          <div class="gallery-product col-md-4 filter  social">
+            <img src="./assets/images/socialimg2.jpg" class="img-fluid" alt="SocialEventImage">
+          </div>
+          <div class="gallery-product col-md-4 filter  entertainment">
+            <img src="./assets/images/entertainimg2.jpg" class="img-fluid" alt="EntertainmentEventImage">
+          </div>
+          <div class="gallery-product col-md-4 filter  corporate">
+            <img src="./assets/images/copoimg2.jpg" class="img-fluid" alt="CorporateEventImage">
+          </div>
+          <div class="gallery-product col-md-4 filter  family">
+            <img src="./assets/images/famimg2.jpg" class="img-fluid" alt="FamilyEventImage">
+          </div>
+          <div class="gallery-product col-md-4 filter  design">
+            <img src="./assets/images/d&dimg2.jpg" class="img-fluid" alt="Design & Decor">
+          </div>
+        </div>
+       </div>
+    </section>
   <!-- Custom JavaScript -->
   <script src="./script.js"></script>
+
+  <!-- JQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function(){
+      $(".filter-button").click(function(){
+        var value = $(this).attr("data-filter");
+        if (value == "all"){
+          $(".filter").show("3000");
+        }else{
+          $(".filter").not("."+value).hide("3000");
+          $(".filter").filter("."+value).show("3000");
+        }
+      })
+    })
+  </script>
+
   <!-- Bootstrap JQuery CDN -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <!-- Bootstrap Popper CDN -->
