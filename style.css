@@ -423,16 +423,49 @@ body {
   background-color: #000;
 }
 /* Contact Section */
-.contact-box{
+/* .contact-box{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 .location-box{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.footer-left img{
+  width: 150px;
+  margin: 0;
+  padding: 0;
+}
+.footer-left-desc{
+  margin: 0;
+  padding-top: 10px;
+  font-size: 15px;
+}
+.contact-box p{
+  margin: 0;
+  padding-top: 10px;
+  font-size: 15px;
+}
+.footer-middle h3{
+  margin: 0;
+}
+.network p{
+  margin: 0;
+  padding-top: 10px;
+}
+.newsletter-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter-box button{
+  background-color: red;
+}
+.main-footer p{
+  margin: 0;
 }
 
 
