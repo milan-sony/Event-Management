@@ -25,11 +25,11 @@ body {
 .navbar {
   background-color: var(--white) !important;
 }
-.navbar-brand img {
+.navbar .navbar-brand img {
   margin: 0;
   height: 40px;
 }
-.nav-link {
+.navbar .nav-link {
   font-weight: 600;
   font-size: 15px;
   font-family: var(--font4);
@@ -38,14 +38,14 @@ body {
   margin: 0px 5px;
   color: var(--orange) !important;
 }
-.nav-link:hover {
+.navbar .nav-link:hover {
   color: var(--yellow) !important;
 }
-.navbar-toggler {
+.navbar .navbar-toggler {
   outline: none !important;
   border: none !important;
 }
-.fa-bars {
+.navbar .fa-bars {
   color: var(--orange);
 }
 /* Home Section */
@@ -366,12 +366,19 @@ body {
   display: block;
   transform: translateY(40px);
 }
+.button-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .filter-button {
   font-size: 18px;
   border: 1px solid blue;
   border-radius: 5px;
   text-align: center;
   color: red;
+  margin-right: 10px;
+  margin-bottom: 20px;
 }
 .filter-button:hover {
   background-color: black;
