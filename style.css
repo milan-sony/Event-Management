@@ -13,7 +13,7 @@ html {
   --white: #ffffff;
   --red: #e63946;
   --blue: #1d3557;
-  --liteblue:#457b9d;
+  --liteblue: #457b9d;
   --font1: "Fauna One", serif;
   --font2: "Playfair Display", serif;
   --font3: "Raleway", sans-serif;
@@ -58,7 +58,7 @@ body {
 }
 /* Home Section */
 .home-section {
-  background: linear-gradient(rgb(0, 0,0, 0.5), #1d3557),
+  background: linear-gradient(rgb(0, 0, 0, 0.5), #1d3557),
     url(./assets/homeimg.jpg);
   min-height: 100vh;
   width: 100%;
@@ -109,7 +109,7 @@ body {
   transition-duration: 0.4s ease;
   cursor: pointer;
   margin-right: 15px;
-  border:none;
+  border: none;
   text-decoration: none;
   list-style-type: none;
 }
@@ -266,7 +266,7 @@ body {
   padding-bottom: 20px;
 }
 /* Services Section */
-.service-section{
+.service-section {
   padding-top: 70px;
 }
 .service-title {
@@ -325,7 +325,7 @@ body {
   border: none;
   border-radius: 5px;
 }
-.servicebox-btn:hover{
+.servicebox-btn:hover {
   background: none;
   border: 1px solid var(--red);
   color: var(--white);
@@ -392,7 +392,7 @@ body {
   background: var(--red);
 }
 /* Gallery Section */
-.gallery-section{
+.gallery-section {
   padding-top: 70px;
 }
 .gallery-title {
@@ -415,7 +415,7 @@ body {
   display: block;
   transform: translateY(40px);
 }
-.button-div{
+.button-div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -437,7 +437,7 @@ body {
   margin-bottom: 32px;
 }
 /* Book Online Section */
-.bookonline-section{
+.bookonline-section {
   padding-top: 70px;
   padding-bottom: 50px;
 }
@@ -461,22 +461,22 @@ body {
   display: block;
   transform: translateY(40px);
 }
-.online-form{
+.online-form {
   margin-bottom: 20px;
 }
-.online-form label{
+.online-form label {
   color: var(--blue);
   font-family: var(--font4);
 }
-.online-form i{
+.online-form i {
   color: var(--red);
 }
-.bookonline-btn-container{
+.bookonline-btn-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.bookonline-btn{
+.bookonline-btn {
   background-color: var(--red);
   padding: 5px 50px;
   color: var(--white);
@@ -486,46 +486,46 @@ body {
   border: none;
   border-radius: 5px;
 }
-.bookonline-btn:hover{
-  background:none;
+.bookonline-btn:hover {
+  background: none;
   border: 1px solid var(--red);
   color: var(--red);
 }
 /* Location Section */
-.location-box{
+.location-box {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 /* Footer Section */
-.footer-section{
+.footer-section {
   background-color: var(--white);
   padding-top: 70px;
   padding-bottom: 50px;
 }
-.footer-left img{
+.footer-left img {
   width: 100px;
   margin: 0;
   padding: 0;
 }
-.footer-left-desc{
+.footer-left-desc {
   color: var(--blue);
   margin: 0;
   padding-top: 10px;
   font-size: 12px;
   font-family: var(--font4);
 }
-.contact-box p{
+.contact-box p {
   color: var(--blue);
   margin: 0;
   padding-top: 10px;
   font-size: 15px;
   font-family: var(--font4);
 }
-.contact-box i{
+.contact-box i {
   color: var(--red);
 }
-.footer-middle h3{
+.footer-middle h3 {
   margin: 0;
   padding-top: 20px;
   font-size: 15px;
@@ -533,17 +533,17 @@ body {
   font-family: var(--font4);
   text-transform: uppercase;
 }
-.network p{
+.network p {
   margin: 0;
   color: var(--blue);
   padding-top: 10px;
   font-family: var(--font4);
   font-size: 15px;
 }
-.network i{
+.network i {
   color: var(--red);
 }
-.footer-right h3{
+.footer-right h3 {
   margin: 0;
   font-size: 15px;
   color: var(--blue);
@@ -552,12 +552,12 @@ body {
   padding-top: 20px;
   padding-bottom: 50px;
 }
-.newsletter-box{
+.newsletter-box {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.newsletter-btn{
+.newsletter-btn {
   background-color: var(--red);
   color: var(--white);
   border: none;
@@ -568,17 +568,16 @@ body {
   border-radius: 5px;
   margin-left: 5px;
 }
-.main-footer{
+.main-footer {
   background-color: var(--blue);
 }
-.main-footer p{
+.main-footer p {
   color: var(--white);
   margin: 0;
   text-align: center;
   font-family: var(--font4);
   padding: 20px;
 }
-
 
 /* Custom Media Query */
 @media (max-width: 768px) {
