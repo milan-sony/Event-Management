@@ -6,3 +6,7 @@ A simple Event Management website created with HTML, CSS, Bootstrap, JavaScript 
 - Responsive
 - Filter-Image Gallery
 - Collapse navbar
+
+## Appendix
+
+Live link : https://milan-sony.github.io/Event-Management/
