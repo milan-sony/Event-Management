@@ -9,4 +9,4 @@ A simple Event Management website created with HTML, CSS, Bootstrap, JavaScript 
 
 ## Appendix
 
-Live link : https://milan-sony.github.io/Event-Management/
+Live link : https://milan-sony.github.io/Event_Management/
