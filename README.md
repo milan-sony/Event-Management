@@ -1,6 +1,6 @@
 # Event Management
 
-A simple Event Management website created with HTML, CSS, Bootstrap, JavaScript and JQuery.
+This is a simple Event Management website created with HTML, CSS, Bootstrap, JavaScript and JQuery.
 ## Features
 
 - Responsive
