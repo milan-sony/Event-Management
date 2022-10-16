@@ -1,12 +1,11 @@
-# Event Management
+# Unica Events
 
-This is a simple Event Management website created with HTML, CSS, Bootstrap, JavaScript and JQuery.
+A simple Event Management website
+
 ## Features
 
 - Responsive
 - Filter-Image Gallery
 - Collapse navbar
 
-## Appendix
-
-Live link : https://milan-sony.github.io/Event_Management/
+[Live link](https://milan-sony.github.io/third_eye/)
