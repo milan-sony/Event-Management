@@ -8,4 +8,4 @@ A simple Event Management website
 - Filter-Image Gallery
 - Collapse navbar
 
-[Live link](https://milan-sony.github.io/third_eye/)
+[Live link](https://milan-sony.github.io/unica_events/)
